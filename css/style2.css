@@ -1,0 +1,144 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease-in;
+    font-family: Hans Kendrick, sans-serif;
+}
+
+html {
+    background: #E2E7EC;
+    /* background: url(redcar.png); */
+    padding: 4vh;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 1120px;
+    height: 84%;
+}
+
+.red-car {
+    display: flex;
+    background: url(../web/redcar.png) no-repeat #E2E7EC content-box;
+    width: 740px;
+    height: 540px;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.first-col {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    font-size: 13px;
+    /* text-transform: uppercase; */
+}
+@font-face {
+    font-family: Hans Kendrick;
+    font-style: normal;
+    src: url(HansKendrick-Regular.otf);
+}
+
+.girl {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 360px;
+    height: 540px;
+    background: url(../web/girl.png) no-repeat #fff content-box;
+}
+.date {
+    color: #99A5B0;
+    display: flex;
+    padding: 10px auto  10px 0;
+}
+
+.second-col {
+    display: flex;
+    align-self: center;
+    order: 1;
+    padding: 25px;
+    max-width: 310px;
+}
+.avatar {
+    display: flex;
+    order: 0;
+    padding: 25px;
+
+}
+.red-car, .girl {
+    padding: 10px;
+}
+.two-girls, .legs, .white-car {
+    padding: 10px;
+}
+.two-girls {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 360px;
+    height: 540px;
+    background: url(../web/two-girls.png) no-repeat #fff content-box;
+}
+.conteiner-below {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 1120px;
+}
+.third-col {
+    display: flex;
+    align-self: center;
+    order: 1;
+    padding: 25px;
+    max-width: 310px;
+}
+.legs {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 360px;
+    height: 540px;
+    background: url(../web/legs.png) no-repeat #fff content-box;
+}
+.fourth-col {
+    display: flex;
+    align-self: center;
+    order: 1;
+    padding: 25px;
+    max-width: 310px;
+}
+.white-car {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 360px;
+    height: 540px;
+    background: url(../web/whitecar.png) no-repeat #fff content-box;
+}
+.fifth-col {
+    display: flex;
+    align-self: center;
+    order: 1;
+    padding: 25px;
+    max-width: 310px;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    height: 210px;
+    align-items: center;
+}
+.bottom img {
+    padding-right: 10px;
+}
+div span.black-text {
+    font-family: Hans Kendrick;
+    font-weight: bold;
+}
