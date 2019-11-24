@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #FDDE7E;
+    padding: 5vh;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 80%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: Miso;
+    font-style: normal;
+    font-weight: normal;
+    src: url(miso-cufonfonts/miso.otf);
+}
+
+@font-face {
+    font-family: Miso-Light;
+    font-style: normal;
+    font-weight: normal;
+    src: url(miso-cufonfonts/miso-light.otf);
+}
+
+@font-face {
+    font-family: Miso-Bold;
+    font-style: normal;
+    font-weight: normal;
+    src: url(miso-cufonfonts/miso-bold.otf);
+}
+
+.conteiner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    flex-basis: 30%;
+    margin: 0 1.25%;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 0.5px rgb(142, 148, 142);
+    padding: 30px 40px;
+    font-family: Miso, sans-serif;
+    height: 80%;
+    min-width: 160px;
+    min-height: 200px;
+}
+
+.conteiner p {
+    font-family: Miso-Bold;
+    color: #02995B;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.conteiner h1 {
+    font-family: Miso;
+    font-weight: lighter;
+    font-size: 55px;
+    margin: 25px 25px;
+}
+
+.conteiner span {
+    font-family: Miso-Light;
+    font-size: 24px;
+    width: 140px;
+    text-align: center;
+}
+
+.conteiner .main {
+    flex-basis: 30%;
+    padding: 75px 60px;
+}
