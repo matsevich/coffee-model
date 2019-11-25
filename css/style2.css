@@ -13,7 +13,7 @@ html {
 
 .conteiner {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     flex-basis: 1120px;
     height: 84%;
@@ -21,25 +21,24 @@ html {
 
 .red-car {
     display: flex;
-    background: url(../web/redcar.png) no-repeat #E2E7EC content-box;
-    width: 740px;
+    background: url(../web/redcar.png) no-repeat local #E2E7EC content-box;
+    flex-basis: 740px;
+    min-width: 310px;
     height: 540px;
 }
 
-main p, header p {
+main p {
     text-transform: uppercase;
     padding-bottom: 40px;
-    
-    
 }
 
 .first-col {
-    display: flex;
-    align-items: flex-end;
+    align-self: flex-end;
     margin-left: 55px;
     margin-bottom: 0;
     font-size: 13px;
-    width: 430px;
+    max-width: 430px;
+    min-width: 280px;
     margin-top: 10px;
 }
 @font-face {
@@ -91,12 +90,7 @@ main p, header p {
     height: 540px;
     background: url(../web/two-girls.png) no-repeat #fff content-box;
 }
-.conteiner-below {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-basis: 1120px;
-}
+
 .third-col {
     display: flex;
     align-self: center;
@@ -168,4 +162,22 @@ a:link {
 a:visited {
     text-decoration: none;
     color: black;
+}
+.bottom img:hover, .bottom p:hover {
+    cursor: progress;
+}
+
+.back a:link {
+    color: green;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.back a:hover {
+    background: yellow;
+    border-radius: 50%;
+    padding: 15px;
+}
+.back a:visited {
+color: green;
 }
