@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: all 0.3s ease-in;
+    transition: all 0.25s ease-in;
 }
 
 html {
@@ -51,7 +51,7 @@ html {
     margin: 0 1.25%;
     border-radius: 7px;
     box-shadow: 1px 1px 1px 0.5px rgb(142, 148, 142);
-    padding: 30px 40px;
+    /* padding: 30px 40px; */
     font-family: Miso, sans-serif;
     height: 80%;
     min-width: 160px;
@@ -79,6 +79,7 @@ html {
     font-size: 24px;
     width: 140px;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .conteiner .main {
@@ -94,6 +95,7 @@ p.footer {
 a:link {
     color: green;
     font-size: 18px;
+    text-decoration: none;
 }
 
 a:hover {
@@ -101,7 +103,11 @@ a:hover {
     border-radius: 50%;
     padding: 15px;
 }
+a:visited {
+color: green;
+}
 
 .conteiner div:hover {
-    box-shadow: 2px 2px 1px 3px rgb(245, 243, 106), -2px -2px 1px 3px rgb(245, 243, 106);
+    box-shadow: 3px 3px 1px 3px #fff, -3px -3px 1px 3px #fff,
+    6px 6px 1px 3px rgb(200, 214, 148), -6px -6px 1px 3px rgb(200, 214, 148);
 }
