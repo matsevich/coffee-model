@@ -8,7 +8,6 @@
 
 html {
     background: #E2E7EC;
-    /* background: url(redcar.png); */
     padding: 4vh;
 }
 
@@ -27,17 +26,21 @@ html {
     height: 540px;
 }
 
-p {
+main p, header p {
     text-transform: uppercase;
+    padding-bottom: 40px;
+    
+    
 }
 
 .first-col {
     display: flex;
     align-items: flex-end;
-    margin-left: 40px;
-    margin-bottom: 40px;
+    margin-left: 55px;
+    margin-bottom: 0;
     font-size: 13px;
-    /* text-transform: uppercase; */
+    width: 430px;
+    margin-top: 10px;
 }
 @font-face {
     font-family: Hans Kendrick;
@@ -57,14 +60,16 @@ p {
     color: #99A5B0;
     display: flex;
     padding: 10px auto  10px 0;
+    font-family: Hans Kendrick;
+    font-size: 13px;
 }
 
 .second-col {
     display: flex;
     align-self: center;
     order: 1;
-    padding: 25px;
-    max-width: 310px;
+    /* padding-left: 25px; */
+    width: 300px;
 }
 .avatar {
     display: flex;
@@ -96,8 +101,8 @@ p {
     display: flex;
     align-self: center;
     order: 1;
-    padding: 25px;
-    max-width: 310px;
+    /* padding: 25px; */
+    width: 300px;
 }
 .legs {
     display: flex;
@@ -111,8 +116,8 @@ p {
     display: flex;
     align-self: center;
     order: 1;
-    padding: 25px;
-    max-width: 310px;
+    /* padding: 25px; */
+    width: 300px;
 }
 .white-car {
     display: flex;
@@ -126,8 +131,8 @@ p {
     display: flex;
     align-self: center;
     order: 1;
-    padding: 25px;
-    max-width: 310px;
+    
+    width: 300px;
 }
 .bottom {
     display: flex;
@@ -141,4 +146,26 @@ p {
 div span.black-text {
     font-family: Hans Kendrick;
     font-weight: bold;
+    font-size: 22px;
+
+}
+div span.white-text {
+    font-family: Hans Kendrick;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+.first-col .date {
+    color: #E0D3B2;
+}
+.red-car:hover {
+    cursor: pointer;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
 }
